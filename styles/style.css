@@ -1,16 +1,13 @@
 /* google font  */
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* Common styles and Utilities */
 
 body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* stylesheet start */
-
-/* .sections {
-    margin: 0 auto;
-} */
+/* Stylesheet start  */
 
 .top-section {
     display: grid;
@@ -23,6 +20,7 @@ body {
     margin: 0 auto;
     border-radius: 30px;
 }
+
 
 .top-content h1 {
     color: #ffffff;
@@ -42,6 +40,10 @@ body {
     padding: 16px 25px 16px 25px;
     border-radius: 5px;
     border: none;
+}
+
+.fa-angle-right {
+    margin-left: 15px;
 }
 
 .top-content a {
