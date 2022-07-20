@@ -5,16 +5,9 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 30px auto;
-    /* width: 1100px;
-    height: 500px; */
-}
+    margin-top: 50px;
 
-/* main {
-    margin: 0 auto;
-    width: 1000px;
-    height: 500px;
-} */
+}
 
 /* Stylesheet start  */
 
@@ -168,8 +161,6 @@ body {
 
 .time {
     display: inline;
-    /* display: grid;
-    grid-template-columns: repeat(1, 1fr); */
 }
 
 .chat {
@@ -184,20 +175,29 @@ body {
 .footer-contents {
     background-color: #161616;
     padding: 50px;
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+#goal {
+    text-align: center;
 }
 
 .footer-contents h1 {
     color: #ffffff;
 }
 
-/* hr {
-    color: 1px solid rgb(170, 2, 2);
-} */
+hr {
+    border: 0.6px solid lightgray;
+    margin-bottom: 40px;
+}
 
 .menu ul {
     display: flex;
     list-style: none;
-
+    align-items: center;
+    justify-content: center;
 }
 
 li a {
