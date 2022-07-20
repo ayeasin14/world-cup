@@ -10,7 +10,7 @@ body {
 }
 
 main {
-    width: 1200px;
+    width: 90vw;
     margin: 0 auto;
 }
 
@@ -72,7 +72,7 @@ main {
 }
 
 .top-player img {
-    height: 500px;
+    height: 100%;
 }
 
 /*-------------------------------
@@ -96,6 +96,7 @@ main {
     background-color: #161616;
     border-radius: 10px;
     padding: 10px;
+    border: 1px solid transparent;
 
 }
 
@@ -230,14 +231,107 @@ li a {
 }
 
 
+.social-icon {
+    /* color: #ffffff; */
+    text-align: center;
+    font-size: 35px;
+}
+
+.fa-brands {
+    color: #ffffff;
+    margin: 10px;
+}
+
+.fa-brands:hover {
+    color: #eeff06;
+    transition-duration: .7s;
+
+}
+
+
+/*----------------- view all button------------------- */
+
+.view-btn {
+    display: none;
+}
+
+.view-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.view-all button {
+    background-color: #DD0000;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    width: 200px;
+
+}
+
+.view-all a {
+    color: #ffffff;
+    font-size: 1.7em;
+    text-decoration: none;
+}
+
+
+
 /* ---------------------
 ----Smaller Device ----
 --------------------- */
 
 @media screen and (max-width: 576px) {
-    .top-section {
-        background-color: aqua;
+
+
+    .top-content {
+        width: 90%;
     }
+
+    .top-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-player {
+        height: 100%;
+    }
+
+
+
+
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+
+    }
+
+    .middle-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .nav {
+        background-color: #ffffff;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .nav button {
+        border: 1px solid lightgray;
+    }
+
+
+
+
+
+
 
 }
 
@@ -246,7 +340,37 @@ li a {
 --------------------- */
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
-    .top-section {
-        background-color: #DD0000;
+
+    .top-content {
+        width: 90%;
     }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+
+    }
+
+    .middle-section {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .nav {
+        background-color: #ffffff;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .nav button {
+        border: 1px solid lightgray;
+    }
+
+    .view-btn {
+        display: block;
+    }
+
 }
