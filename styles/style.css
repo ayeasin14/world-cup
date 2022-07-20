@@ -300,10 +300,6 @@ li a {
         height: 100%;
     }
 
-
-
-
-
     .blogs {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
