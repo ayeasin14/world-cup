@@ -175,6 +175,10 @@ main {
     footer style started 
 -----------------------------*/
 
+footer {
+    width: 100%;
+}
+
 .footer-contents {
     background-color: #161616;
     padding: 50px;
