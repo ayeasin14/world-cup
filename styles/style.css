@@ -171,11 +171,21 @@ main {
 }
 
 .time {
-    display: inline;
+    display: flex;
+    align-items: center;
+}
+
+.time p {
+    margin-left: 10px;
 }
 
 .chat {
-    display: inline;
+    display: flex;
+    align-items: center;
+}
+
+.chat p {
+    margin-left: 10px;
 }
 
 
@@ -217,4 +227,26 @@ li a {
     text-decoration: none;
     margin-left: 15px;
     margin-right: 15px;
+}
+
+
+/* ---------------------
+----Smaller Device ----
+--------------------- */
+
+@media screen and (max-width: 576px) {
+    .top-section {
+        background-color: aqua;
+    }
+
+}
+
+/* ---------------------
+----Medium Device ----
+--------------------- */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .top-section {
+        background-color: #DD0000;
+    }
 }
